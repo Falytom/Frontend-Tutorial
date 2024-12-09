@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM TUTORIAL</title>
+
+    <style>
+      body {
+        background-color: #202020;
+        color: #f0f0f0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>FORMS</h1>
+
+    <!-- FORMS -->
+    <form>
+      <!-- PERSONAL SECTION AREA -->
+      <fieldset>
+        <legend>Personal Info</legend>
+        <!-- FIRSTNAME -->
+        <label for="firstname">FirstName *</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          required
+          placeholder="Enter your first name"
+        />
+
+        <br />
+        <br />
+
+        <!-- LASTNAME -->
+        <label for="lastname">LastName *</label>
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          required
+          placeholder="kindly enter your lastname"
+        />
+
+        <br />
+        <br />
+
+        <!-- PASSWORD -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <br />
+        <br />
+
+        <!-- EMAIL -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <br />
+        <br />
+
+        <!-- NUMBER -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100" />
+      </fieldset>
+
+      <br /><br />
+
+      <!-- OTHERS -->
+      <fieldset>
+        <legend>Others</legend>
+        <!-- CHECKBOX -->
+        <p>FAVORITE FOODS</p>
+        <label> <input type="checkbox" name="food" value="rice" /> Rice </label>
+
+        <label><input type="checkbox" name="food" value="beans" /> Beans</label>
+
+        <label> <input type="checkbox" name="food" value="yam" /> Yam </label>
+
+        <br /><br />
+
+        <!-- RADIO -->
+        <p>GENDER</p>
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label
+          ><input type="radio" name="gender" value="female" /> Female</label
+        >
+
+        <br /><br />
+
+        <!-- DATE -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" />
+
+        <br /><br />
+
+        <!--  FILE  -->
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" />
+      </fieldset>
+
+      <br />
+
+      <!-- SUBMIT -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
