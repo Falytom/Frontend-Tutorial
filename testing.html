@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- cite, blockqoute and q -->
+    <h2 id="contact">contact</h2>
+    <p>the name of the book is <cite>Thing fall apart</cite></p>
+    <p>
+      The book <cite>The Catcher in the Rye</cite> is a classic American novel.
+    </p>
+
+    <blockquote cite="https://example.com/speech">
+      "The only limit to our realization of tomorrow is our doubts of today."
+    </blockquote>
+    <p>— Franklin D. Roosevelt</p>
+
+    <blockquote cite="https://example.com/quote">
+      "Life is what happens when you're busy making other plans."
+      <footer>— <cite>John Lennon</cite></footer>
+    </blockquote>
+
+    <p>
+      As John Lennon said,
+      <q>Life is what happens when you're busy making other plans.</q>
+    </p>
+
+    <h1>Famous Quotes</h1>
+
+    <p>One of the most inspiring quotes I’ve read is:</p>
+
+    <blockquote cite="https://example.com/roosevelt-quote">
+      "The only limit to our realization of tomorrow is our doubts of today."
+      <footer>— <cite>Franklin D. Roosevelt</cite></footer>
+    </blockquote>
+
+    <p>Another powerful quote comes from John Lennon:</p>
+
+    <p>
+      As he said,
+      <q>Life is what happens when you're busy making other plans.</q>
+    </p>
+    <!-- anchor tage -->
+    <a href="https://www.google.com/">google</a> <br />
+    <a href="index.html">index</a><br />
+    <a href="mailto:example@example.com">mail</a> <br />
+    <a href="https://www.wikipedia.org" target="_blank">new tab</a> <br />
+    <a href="#contact">in house link</a> <br />
+    <a href="https://www.mozilla.org" title="Learn about Mozilla">Mozilla</a
+    ><br />
+    <a href="https://www.google.com/" target="_blank" title="google search"
+      >google2</a
+    ><br />
+    <a href="/css-class/about.html">css class about page</a>
+
+    <!-- image -->
+    <img src="image source goes here" alt="description goes here" />
+    <img
+      src="images/crazydog.jpeg"
+      alt="crazy dog"
+      width="300"
+      height="500"
+      title="very crazy dog"
+      loading="lazy"
+      crossorigin="anonymous"
+    />
+    <img
+      src="https://plus.unsplash.com/premium_photo-1716137266910-fe6fec22b381?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3wxfHx8ZW58MHx8fHx8"
+      alt="external link"
+      loading="eager"
+    />
+
+    <video
+      width="560"
+      height="300"
+      controls
+      loop
+      muted
+      poster="crazydog.jpeg"
+    >
+      <source src="Learn GraphQL In 40 Minutes.mp4" type="video/mp4" />
+    </video>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/mKmMp3oF8Fc?si=k6pwwxIFrvM5O049"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <audio src="AfroBeat-Jam-Session-2020-Mix-Alternate-Sound-ft.-Dj-Big-N.mp3" controls loop type="audio/mpeg"></audio>
+  </body>
 </html>
